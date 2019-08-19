@@ -28,8 +28,8 @@ public class CustomerServiceImp implements CustomerService {
 		return customerDAO.getCustomerCart(theId);
 	}
 
-	public void deleteCustomerCartItem(int theId) {
-		customerDAO.deleteCustomerCartItem(theId);
+	public void deleteCustomerCartItem(int theId,String course) {
+		customerDAO.deleteCustomerCartItem(theId,course);
 
 	}
 

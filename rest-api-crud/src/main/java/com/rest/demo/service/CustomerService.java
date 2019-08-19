@@ -12,5 +12,5 @@ public interface CustomerService {
 
 	public List<CustomerCart>  getCustomerCart(int theId);
 
-	public void deleteCustomerCartItem(int theId);
+	public void deleteCustomerCartItem(int theId,String course);
 }
